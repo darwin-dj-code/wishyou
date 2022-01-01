@@ -43,8 +43,10 @@ const Share = () => {
         <div className="flex flex-col justify-center items-center mt-6">
           <div className="pb-1">SHARE :</div>
           <WhatsappShareButton
-            url={`
-      ${host}/wish/${name}
+            url={`*name*
+send you a surprise message 
+👇*open*👇 
+${host}/wish/${name}
      `}
           >
             <Image
