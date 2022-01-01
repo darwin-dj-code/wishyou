@@ -8,7 +8,20 @@ module.exports = {
     fontFamily: {
       montserrat: ["Montserrat", "sans-serif"],
     },
-    extend: {},
+    colors: {
+      primaryText: "#45A29E",
+      secondaryText: "#66FCF1",
+      thirdText: "#41C8C2",
+
+      black: "#000",
+      white: "#fff",
+    },
+    extend: {
+      backgroundImage: {
+        backgroundPattern: "url('/backgroundPattern.svg')",
+        backgroundSpeedEffect: "url('/speedEffect.svg')",
+      },
+    },
   },
   plugins: [],
 };
